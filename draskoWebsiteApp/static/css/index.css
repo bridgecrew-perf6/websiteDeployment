@@ -1,0 +1,484 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.homePage{
+    width: 100%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 90;
+    height: 10%;
+    background-image: url("../images/navImage.jpeg");
+    color: white;
+    display: flex;  
+    align-items: center;
+    font-size: larger;
+}
+
+#companyName {
+    width: 50%;
+    padding-left: 5%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.container {
+    width: 50%;
+}
+.container ul{
+    padding-left: 30%;
+    list-style: none;
+    
+}
+.container li{
+    display:inline;
+}
+.container a{
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.container a:hover {
+    color: orange;
+    text-decoration: none;
+    font-size: large;
+}
+#top {
+    display: flex;
+}
+#primaryOpticalArea{
+    width: 60%;
+    padding: 10% 3% 3% 3%;
+    background-color: black;
+    color: white;
+}
+#primaryOpticalArea h1 {
+    text-align: center;
+}
+#primaryOpticalArea h3 {
+    text-align: center;
+}
+.photo {
+    width: 40%;
+    background-color: black;
+}
+.button {
+    padding-top: 5%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.btn {
+    padding: 3%;
+    border-radius: 10%;
+}
+
+#services {
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0 0), url("../images/blackWhiteClearDesk.jpg"); */
+
+    background-image: url("../images/devices.png");
+}
+
+#aboutArea {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("../images/aboutImage.jpeg");
+}
+
+#about h2 {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 1%;
+    font-weight: 800;
+    margin: 0 auto;
+    color: cornsilk;
+    text-decoration: underline;
+}
+#about p {
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 6%;
+    font-size: x-large;
+    color: cornsilk;
+}
+
+#terminal area {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#terminalArea h2{
+    text-align: center;
+    padding-top: 9%;
+    padding-bottom: 3%;
+    font-weight: 600;
+    margin: -10px;
+    color: cornsilk;
+    text-decoration: underline;
+}
+#terminalArea ul{
+    width: 50%;
+    margin: 0 auto;
+}
+#terminalArea p{
+    text-align: center;
+    padding: 3%;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+#terminalArea ul{
+    text-align: center;
+    list-style: none;
+}
+#terminalArea li{
+    color: orange;
+    font-weight: 700;
+    font-size: x-large;
+}
+.clients h2{
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    color: white;
+}
+.logo {
+    height: 100%;
+}
+
+.one {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.two {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.three {
+    animation-duration: 6s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.four {
+    animation-duration: 8s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.five {
+    animation-duration: 10s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.six {
+    animation-duration: 12s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.seven {
+    animation-duration: 14s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+#process {
+    color: orange;
+}
+/* #quote {
+    width: 100%;
+    padding-top: 3%;
+    background-image: linear-gradient(to bottom right,black, rgb(90, 89, 88), black);
+    color: white;
+    position: relative;
+}
+#quote h2{
+    text-align: center;
+}
+#quote h4{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.quoteTopTitle{
+    font-size: medium;
+}
+.quoteTop {
+    display: flex;
+    justify-content: space-around;
+}
+.industry .verticalList {
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.project {
+    padding: 3%;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.project .verticalList {
+    width: 125%;
+}
+.timeline {
+    padding: 3%;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.timeline .verticalList {
+    width: 125%;
+}
+.sizeOfProject {
+    padding: 3%;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.sizeOfProject .verticalList{
+    width: 125%;
+}
+.services {
+    padding: 3%;
+    width: 25%;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.services .verticalList{
+    padding: 2%;
+}
+.quoteBottom {
+    display: flex;
+}
+.industry {
+    padding: 3%;
+    margin: 4%;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    width: 60%;
+}
+.buttonNext {
+    padding-left: 10%;
+    padding-top: 15%;
+}
+.btn_1 {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 8px white;
+}
+.btn_1 a {
+    color: black;
+}
+.radioInput {
+    padding: 15px 0;
+}
+.form-check-input {
+    padding: 15px 0;
+} */
+footer {
+    padding: 4% 4% 0% 4%;
+    background: black;
+    color: white;
+}
+.footerUpper {
+    display: flex;
+    justify-content: space-around;
+}
+.footerColoms {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu {
+    list-style: none;
+}
+.manu-1 {
+    padding: 3px 0;;
+}
+.manu-2 {
+    padding: 3px 0;;
+}
+h3 {
+    padding: 5px 0;
+}
+.title {
+    font-weight: bold;
+}
+.textWhite {
+    margin: 5px 0;
+}
+.contact {
+    padding: 3px 0;
+    /* color: white; */
+}
+.contact a {
+    color: white;
+}
+.contact a:hover {
+    color: orange;
+    font-size: large;
+}
+.social {
+    width: 80%;
+}
+.socialIcons{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+.footerLower a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+.footerLower {
+    padding: 5px;
+    width: 50%;
+}
+.footerLower ul {
+    list-style: none;
+}
+.footerLower li {
+    display: inline;
+
+}

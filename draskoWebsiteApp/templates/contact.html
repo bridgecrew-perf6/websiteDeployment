@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'CSS/contact.CSS' %}">
+    <script src="{% static 'js/contactForm.js' %}"></script>
+</head>
+
+<body>
+    <div class="requestQuote">
+        <nav id="navbar">
+            <h3 id="companyName">Vucen Developers</h3>
+            <div class="container">
+                <ul>
+                    <li><a href="/home">BACK TO HOMEPAGE</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <section>
+            <div class="formContainer">
+                <form action="https://formspree.io/f/mayvowaz" method="POST" id="my-form">
+                
+                <div class="form-group">
+                    <label for="fullName"> Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="number" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="meessage" id="message" cols="30" rows="10"></textarea>
+                </div>
+                
+                <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div id="status"></div>
+        </section>
+
+
+        </div>
+        <footer>
+            <div class="footerUpper">
+                <div class="footerColoms">
+                    <div id="company">
+                        <h3>Company</h3>
+                        <hr class="textWhite">
+                        <ul class="menu">
+                            <li class="manu-1">About Us</li>
+                            <li class="manu-1">Services</li>
+                            <!-- <li class="manu-1">Our Process</li> -->
+                        </ul>
+                    </div>
+                    <div id="services">
+                        <h3>Services</h3>
+                        <hr class="textWhite">
+                        <ul class="menu">
+                            <li class="manu-2">Mobile App Design & Development</li>
+                            <li class="manu-2">Responsive Design</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerAddressAndSocial">
+                    <dif class="footerAddress">
+                        <h3>Vucen Developers Inc.</h3>
+                        <p class="contact">Stoney Creek, Ontario, Canada</p>
+                        <p class="contact">vucendevelopers1@gmail.com</p>
+                    </dif>
+                    <div class="social">
+                        <ul class="socialIcons">
+                            <a class="socialIcon" href="" target="_blank">
+                                <li><ion-icon name="logo-facebook"></ion-icon></li>
+                            </a>
+                            <a class="socialIcon" href="https://www.linkedin.com/in/draskovucenovic/?originalSubdomain=ca" target="_blank">
+                                <li><ion-icon name="logo-linkedin"></ion-icon></li>
+                            </a>
+                            <a class="socialIcon" href="" target="_blank">
+                                <li><ion-icon name="logo-twitter"></ion-icon></li>
+                            </a>
+                            <a class="socialIcon" href="" target="_blank">
+                                <li><ion-icon name="logo-instagram"></ion-icon></ion-icon></li>
+                            </a>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footerLower">
+                <ul>
+                    <li>@2022 Rights reserved |</li>
+                    <li><a href="privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </footer>
+
+
+    </div>
+    
+</body>
+</html>
